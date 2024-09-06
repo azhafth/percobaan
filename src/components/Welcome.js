@@ -6,7 +6,7 @@ class Welcome extends Component {
         // const {state1, state2} = this.state
         return (
         <h1> 
-            Welcome {name}a.k.a {heroName}
+            Welcome!!! {name}a.k.a {heroName}
         </h1>
         )
     }
