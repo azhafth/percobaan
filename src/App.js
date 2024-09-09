@@ -9,12 +9,28 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import Person from './components/Person';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './components/appStyles.css'
+import styles from './components/appStyles.module.css'
 
 class App extends Component {
   render() {
   return (
     <div className="App">
-      <EventBind/>
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
+      {/* <Inline/> */}
+      {/* <Stylesheet primary={true}/> */}
+      {/* <Person/> */}
+      {/* <NameList/> */}
+      {/* <UserGreeting/> */}
+      {/* <ParentComponent/> */}
+      {/* <EventBind/> */}
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
       {/* <Counter /> */}
@@ -25,8 +41,8 @@ class App extends Component {
       <Greet name="Clark" heroName="Superman">
          <button> action </button>
       </Greet> */}
-      <Greet name="Diana" heroName="Wonder Woman"/>
-      <Welcome name="Bruce" heroName="Batman"/>
+      {/* <Greet name="Diana" heroName="Wonder Woman"/> */}
+      {/* <Welcome name="Bruce" heroName="Batman"/> */}
       {/* < Welcome name="clark" heroName="Wonder"/>
       < Welcome name="Diana" heroName="Wonder"/> */}
       {/* < Hello />  */}
