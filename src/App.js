@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import RefsDemo from './components/RefsDemo';
+import FRInput from './components/FRInput';
+import FRParentInput from './components/FRParentInput';
+// import FocusInput from './components/FocusInput';
+// import Input from './components/Input';
+// import RefsDemo from './components/RefsDemo';
 // import PureComp from './components/PureComp';
 // import ParentComp from './components/ParentComp';
 // import FragmentDemo from './components/FragmentDemo';
@@ -30,7 +34,11 @@ class App extends Component {
   render() {
   return (  
     <div className="App">
-      <RefsDemo/>
+      <FRParentInput/>
+      {/* <FRInput/> */}
+      {/* <FocusInput/> */}
+      {/* <Input/> */}
+      {/* <RefsDemo/> */}
       {/* <ParentComp/> */}
       {/* <PureComp/> */}
       {/* <Table/> */}
