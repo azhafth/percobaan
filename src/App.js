@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+// import FragmentDemo from './components/FragmentDemo';
+// import Table from './components/Table';
+// import LifecycleA from './components/LifecycleA';
 // import Form from './components/Form';
-// import Greet from './components/Greet'
+// impo rt Greet from './components/Greet'
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello'
 // import Message from './components/Message'
@@ -24,6 +29,11 @@ class App extends Component {
   render() {
   return (  
     <div className="App">
+      <ParentComp/>
+      {/* <PureComp/> */}
+      {/* <Table/> */}
+      {/* <FragmentDemo/> */}
+      {/* <LifecycleA/> */}
       {/* <Form/> */}
       {/* <h1 className='error'>Error</h1> */}
       {/* <h1 className={styles.success}>Success</h1> */}
