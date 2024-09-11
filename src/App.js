@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Hero from './components/Hero';
-import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import User from './components/User';
+// import Hero from './components/Hero';
+// import ErrorBoundary from './components/ErrorBoundary';
 // import PortalDemo from './components/PortalDemo';
 // import FRInput from './components/FRInput';
 // import FRParentInput from './components/FRParentInput';
@@ -37,11 +40,14 @@ class App extends Component {
   render() {
   return (  
     <div className="App">
-      <ErrorBoundary>
+      <User name={(isLoggedIn)=>isLoggedIn ? 'Azha' : 'Guest'}/>
+      <ClickCounterTwo/>
+      <HoverCounterTwo/>
+      {/* <ErrorBoundary>
       <Hero heroName="Batman"/>
       <Hero heroName="Superman"/>
       <Hero heroName="Joker"/>
-      </ErrorBoundary>
+      </ErrorBoundary> */}
       {/* <PortalDemo/> */}
       {/* <FRParentInput/> */}
       {/* <FRInput/> */}
