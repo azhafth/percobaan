@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import ClickCounterTwo from './components/ClickCounterTwo';
-import HoverCounterTwo from './components/HoverCounterTwo';
-import User from './components/User';
+// import UserStatus from './components/UserStatus';
+// import NameForm from './components/NameFrom';
+//  import ClickCounterTwo from './components/ClickCounterTwo';
+//  import HoverCounterTwo from './components/HoverCounterTwo';
+// import User from './components/User';
+// import PostList from './components/PostList';
+// import ComponentC from './components/ComponentF';
+// import { UserProvider } from './components/userContext';
+// import ClickCounter from './components/ClickCounter';
 // import Hero from './components/Hero';
 // import ErrorBoundary from './components/ErrorBoundary';
 // import PortalDemo from './components/PortalDemo';
@@ -40,51 +46,57 @@ class App extends Component {
   render() {
   return (  
     <div className="App">
-      <User name={(isLoggedIn)=>isLoggedIn ? 'Azha' : 'Guest'}/>
-      <ClickCounterTwo/>
-      <HoverCounterTwo/>
-      {/* <ErrorBoundary>
-      <Hero heroName="Batman"/>
-      <Hero heroName="Superman"/>
-      <Hero heroName="Joker"/>
-      </ErrorBoundary> */}
-      {/* <PortalDemo/> */}
-      {/* <FRParentInput/> */}
-      {/* <FRInput/> */}
-      {/* <FocusInput/> */}
-      {/* <Input/> */}
-      {/* <RefsDemo/> */}
-      {/* <ParentComp/> */}
-      {/* <PureComp/> */}
-      {/* <Table/> */}
-      {/* <FragmentDemo/> */}
-      {/* <LifecycleA/> */}
-      {/* <Form/> */}
-      {/* <h1 className='error'>Error</h1> */}
-      {/* <h1 className={styles.success}>Success</h1> */}
-      {/* <Inline/> */}
-      {/* <Stylesheet primary={true}/> */}
-      {/* <Person/> */}
-      {/* <NameList/> */}
-      {/* <UserGreeting/> */}
-      {/* <ParentComponent/> */}
-      {/* <EventBind/> */}
-      {/* <FunctionClick/> */}
-      {/* <ClassClick/> */}
-      {/* <Counter /> */}
-      {/* <Message/> */}
-      {/* < Greet name="Bruce" heroName="Batman">
-      <p> This is Children props</p> 
-      </Greet>
-      <Greet name="Clark" heroName="Superman">
-         <button> action </button>
-      </Greet> */}
-      {/* <Greet name="Diana" heroName="Wonder Woman"/> */}
-      {/* <Welcome name="Bruce" heroName="Batman"/> */}
-      {/* < Welcome name="clark" heroName="Wonder"/>
-      < Welcome name="Diana" heroName="Wonder"/> */}
-      {/* < Hello />  */}
-    </div>
+      {/* <NameForm/> */}
+      {/* <UserStatus/> */}
+       {/* <User name={(isLoggedIn)=>isLoggedIn ? 'Azha' : 'Guest'}/> */}
+       {/* <PostList/> */}
+        {/* <UserProvider value="Azha">
+        <ComponentC/>
+        </UserProvider> */}
+       {/* <ClickCounterTwo name="A" /> */}
+       {/* <HoverCounterTwo/> */}
+       {/* <ErrorBoundary>
+       <Hero heroName="Batman"/>
+       <Hero heroName="Superman"/>
+       <Hero heroName="Joker"/>
+       </ErrorBoundary> */}
+       {/* <PortalDemo/> */}
+       {/* <FRParentInput/> */}
+       {/* <FRInput/> */}
+       {/* <FocusInput/> */}
+       {/* <Input/> */}
+       {/* <RefsDemo/> */}
+       {/* <ParentComp/> */}
+       {/* <PureComp/> */}
+       {/* <Table/> */}
+       {/* <FragmentDemo/> */}
+       {/* <LifecycleA/> */}
+       {/* <Form/> */}
+       {/* <h1 className='error'>Error</h1> */}
+       {/* <h1 className={styles.success}>Success</h1> */}
+       {/* <Inline/> */}
+       {/* <Stylesheet primary={true}/> */}
+       {/* <Person/> */}
+       {/* <NameList/> */}
+       {/* <UserGreeting/> */}
+       {/* <ParentComponent/> */}
+       {/* <EventBind/> */}
+       {/* <FunctionClick/> */}
+       {/* <ClassClick/> */}
+       {/* <Counter /> */}
+       {/* <Message/> */}
+       {/* < Greet name="Bruce" heroName="Batman">
+       <p> This is Children props</p> 
+       </Greet>
+       <Greet name="Clark" heroName="Superman">
+          <button> action </button>
+       </Greet> */}
+       {/* <Greet name="Diana" heroName="Wonder Woman"/> */}
+       {/* <Welcome name="Bruce" heroName="Batman"/> */}
+       {/* < Welcome name="clark" heroName="Wonder"/>
+       < Welcome name="Diana" heroName="Wonder"/> */}
+       {/* < Hello />  */}
+     </div>
   );
 }
 }
